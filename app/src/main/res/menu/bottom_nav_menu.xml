@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/nav_practice"
+        android:icon="@drawable/ic_baseline_play_arrow_24"
+        android:title="@string/practice"/>
+    <item
+        android:id="@+id/nav_card"
+        android:icon="@drawable/ic_baseline_dynamic_feed_24"
+        android:title="@string/cards_small"/>
+    <item
+        android:id="@+id/nav_grade"
+        android:icon="@drawable/ic_baseline_grade_24"
+        android:title="@string/grade" />
+</menu>

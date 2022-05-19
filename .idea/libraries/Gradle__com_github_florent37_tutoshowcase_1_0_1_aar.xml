@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.florent37:tutoshowcase:1.0.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4232073e830a49c58854a2ca6da32202/transformed/jetified-tutoshowcase-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4232073e830a49c58854a2ca6da32202/transformed/jetified-tutoshowcase-1.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4232073e830a49c58854a2ca6da32202/transformed/jetified-tutoshowcase-1.0.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.florent37/tutoshowcase/1.0.1/70d53078607eed142cbb2d89d843746f837bc0a3/tutoshowcase-1.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.florent37/tutoshowcase/1.0.1/52e7effde066313812f8f008abf7c7ab0a002a9c/tutoshowcase-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

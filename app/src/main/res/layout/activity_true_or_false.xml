@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_background">
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress_level_indicator"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        app:trackThickness="20dp"
+        app:trackCornerRadius="20dp"
+        app:trackColor="#EB3E3D3D"
+        app:indicatorColor="@color/colorPrimary"
+        android:indeterminate="false"
+        android:progress="0"
+        android:max="100"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/home"
+        app:layout_constraintBottom_toTopOf="@id/card_title"
+        app:layout_constraintVertical_bias="0.40"/>
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toTopOf="@id/card_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.10"
+        app:layout_constraintHorizontal_bias="0.10"
+        android:tint="@color/white"
+        app:srcCompat="@drawable/ic_baseline_home_24" />
+
+    <ImageButton
+        android:id="@+id/grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toTopOf="@id/card_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.10"
+        app:layout_constraintHorizontal_bias="0.90"
+        android:tint="@color/white"
+        app:srcCompat="@drawable/ic_baseline_school_24" />
+
+    <TextView
+        android:id="@+id/level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/passion_one_bold"
+        android:gravity="center"
+        tools:text="Level 1"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        app:layout_constraintTop_toBottomOf="@id/home"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.90"
+        app:layout_constraintBottom_toTopOf="@id/progress_level_indicator"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card_title"
+        android:background="@drawable/curve_bg_yellow"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:elevation="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45"
+        tools:targetApi="lollipop">
+
+        <TextView
+            android:id="@+id/answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/passion_one_bold"
+            android:gravity="center"
+            tools:text="12 x 12 = 144"
+            android:textColor="@color/blue_text"
+            android:textSize="50sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/correctText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/passion_one_bold"
+        android:gravity="center"
+        android:visibility="gone"
+        tools:text="12 x 12 = 144"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@id/card_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/trueButton"/>
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:id="@+id/trueButton"
+        android:padding="20dp"
+        android:background="@drawable/curve_bg_border_black_white"
+        app:layout_constraintTop_toBottomOf="@id/card_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.20"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/trueImage"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_check"
+            android:contentDescription="@string/todo"
+            app:tint="@color/blue_text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:id="@+id/falseButton"
+        android:padding="20dp"
+        android:background="@drawable/curve_bg_border_black_white"
+        app:layout_constraintTop_toBottomOf="@id/card_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.80"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/falseImage"
+            android:scaleX=".83"
+            android:scaleY=".83"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_wrong"
+            android:contentDescription="@string/todo"
+            app:tint="@color/blue_text" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

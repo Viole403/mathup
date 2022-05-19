@@ -1,0 +1,265 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.skylink.mathup"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:5:5-79
+11-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:6:5-67
+12-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:7:5-66
+13-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:7:22-63
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\viole\.gradle\caches\transforms-3\5000bc671a8f2424debba240b4d9b23e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:25:5-68
+14-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\viole\.gradle\caches\transforms-3\5000bc671a8f2424debba240b4d9b23e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:25:22-65
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\viole\.gradle\caches\transforms-3\5000bc671a8f2424debba240b4d9b23e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\viole\.gradle\caches\transforms-3\5000bc671a8f2424debba240b4d9b23e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:26:22-107
+16    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+16-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\viole\.gradle\caches\transforms-3\abca199268512c8f766c0bf9da6a850b\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:25:5-79
+16-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\viole\.gradle\caches\transforms-3\abca199268512c8f766c0bf9da6a850b\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:25:22-76
+17
+18    <application
+18-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:9:5-44:19
+19        android:allowBackup="true"
+19-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:10:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.7.0] C:\Users\viole\.gradle\caches\transforms-3\b53f309841b6d61b5dabff9d023d3b64\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:fullBackupContent="true"
+22-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:16:9-41
+23        android:icon="@mipmap/ic_launcher"
+23-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:11:9-43
+24        android:label="@string/app_name"
+24-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:12:9-41
+25        android:roundIcon="@mipmap/ic_launcher"
+25-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:13:9-48
+26        android:supportsRtl="true"
+26-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:14:9-35
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme" >
+28-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:15:9-40
+29        <activity
+29-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:18:9-29:20
+30            android:name="com.skylink.mathup.SplashActivity"
+30-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:18:19-67
+31            android:configChanges="orientation|keyboardHidden"
+31-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:22:13-63
+32            android:exported="true"
+32-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:19:13-36
+33            android:screenOrientation="portrait"
+33-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:21:13-49
+34            android:theme="@style/YellowWindowBG" >
+34-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:23:13-50
+35            <intent-filter>
+35-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:24:13-28:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:25:17-69
+36-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:25:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:27:17-77
+38-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:27:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:31:9-155
+42            android:name="com.skylink.mathup.MainActivity"
+42-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:31:19-65
+43            android:configChanges="orientation|keyboardHidden"
+43-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:31:103-153
+44            android:screenOrientation="portrait" />
+44-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:31:66-102
+45        <activity
+45-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:32:9-155
+46            android:name="com.skylink.mathup.MenuActivity"
+46-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:32:19-65
+47            android:configChanges="orientation|keyboardHidden"
+47-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:32:103-153
+48            android:screenOrientation="portrait" />
+48-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:32:66-102
+49        <activity
+49-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:33:9-156
+50            android:name="com.skylink.mathup.GradeActivity"
+50-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:33:19-66
+51            android:configChanges="orientation|keyboardHidden"
+51-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:33:104-154
+52            android:screenOrientation="portrait" />
+52-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:33:67-103
+53        <activity
+53-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:34:9-168
+54            android:name="com.skylink.mathup.FlashMainMultiplyActivity"
+54-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:34:19-78
+55            android:configChanges="orientation|keyboardHidden"
+55-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:34:116-166
+56            android:screenOrientation="portrait" />
+56-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:34:79-115
+57        <activity
+57-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:35:9-168
+58            android:name="com.skylink.mathup.FlashMainAdditionActivity"
+58-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:35:19-78
+59            android:configChanges="orientation|keyboardHidden"
+59-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:35:116-166
+60            android:screenOrientation="portrait" />
+60-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:35:79-115
+61        <activity
+61-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:36:9-163
+62            android:name="com.skylink.mathup.FlashMainSubActivity"
+62-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:36:19-73
+63            android:configChanges="orientation|keyboardHidden"
+63-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:36:111-161
+64            android:screenOrientation="portrait" />
+64-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:36:74-110
+65        <activity
+65-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:37:9-170
+66            android:name="com.skylink.mathup.TrueOrFalseMultiplyActivity"
+66-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:37:19-80
+67            android:configChanges="orientation|keyboardHidden"
+67-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:37:118-168
+68            android:screenOrientation="portrait" />
+68-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:37:81-117
+69        <activity
+69-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:38:9-165
+70            android:name="com.skylink.mathup.TrueOrFalseAddActivity"
+70-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:38:19-75
+71            android:configChanges="orientation|keyboardHidden"
+71-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:38:113-163
+72            android:screenOrientation="portrait" />
+72-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:38:76-112
+73        <activity
+73-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:39:9-165
+74            android:name="com.skylink.mathup.TrueOrFalseSubActivity"
+74-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:39:19-75
+75            android:configChanges="orientation|keyboardHidden"
+75-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:39:113-163
+76            android:screenOrientation="portrait" />
+76-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:39:76-112
+77        <activity
+77-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:40:9-147
+78            android:name="com.skylink.mathup.Info"
+78-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:40:19-57
+79            android:configChanges="orientation|keyboardHidden"
+79-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:40:95-145
+80            android:screenOrientation="portrait" />
+80-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:40:58-94
+81        <activity
+81-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:41:9-151
+82            android:name="com.skylink.mathup.Practice"
+82-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:41:19-61
+83            android:configChanges="orientation|keyboardHidden"
+83-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:41:99-149
+84            android:screenOrientation="portrait" />
+84-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:41:62-98
+85        <activity
+85-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:42:9-179
+86            android:name="com.skylink.mathup.SelectMultiplicationPracticeActivity"
+86-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:42:19-89
+87            android:configChanges="orientation|keyboardHidden"
+87-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:42:127-177
+88            android:screenOrientation="portrait" />
+88-->D:\mathup-update-gradle\app\src\main\AndroidManifest.xml:42:90-126
+89
+90        <receiver
+90-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\viole\.gradle\caches\transforms-3\5000bc671a8f2424debba240b4d9b23e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:29:9-33:20
+91            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+91-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\viole\.gradle\caches\transforms-3\5000bc671a8f2424debba240b4d9b23e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:30:13-85
+92            android:enabled="true"
+92-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\viole\.gradle\caches\transforms-3\5000bc671a8f2424debba240b4d9b23e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:31:13-35
+93            android:exported="false" >
+93-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\viole\.gradle\caches\transforms-3\5000bc671a8f2424debba240b4d9b23e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:32:13-37
+94        </receiver>
+95
+96        <service
+96-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\viole\.gradle\caches\transforms-3\5000bc671a8f2424debba240b4d9b23e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:35:9-38:40
+97            android:name="com.google.android.gms.measurement.AppMeasurementService"
+97-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\viole\.gradle\caches\transforms-3\5000bc671a8f2424debba240b4d9b23e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:36:13-84
+98            android:enabled="true"
+98-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\viole\.gradle\caches\transforms-3\5000bc671a8f2424debba240b4d9b23e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:37:13-35
+99            android:exported="false" />
+99-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\viole\.gradle\caches\transforms-3\5000bc671a8f2424debba240b4d9b23e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:38:13-37
+100        <service
+100-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\viole\.gradle\caches\transforms-3\5000bc671a8f2424debba240b4d9b23e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:39:9-43:72
+101            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+101-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\viole\.gradle\caches\transforms-3\5000bc671a8f2424debba240b4d9b23e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:40:13-87
+102            android:enabled="true"
+102-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\viole\.gradle\caches\transforms-3\5000bc671a8f2424debba240b4d9b23e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:41:13-35
+103            android:exported="false"
+103-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\viole\.gradle\caches\transforms-3\5000bc671a8f2424debba240b4d9b23e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:42:13-37
+104            android:permission="android.permission.BIND_JOB_SERVICE" />
+104-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\viole\.gradle\caches\transforms-3\5000bc671a8f2424debba240b4d9b23e\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:43:13-69
+105        <service
+105-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\viole\.gradle\caches\transforms-3\abca199268512c8f766c0bf9da6a850b\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:28:9-34:19
+106            android:name="com.google.firebase.components.ComponentDiscoveryService"
+106-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\viole\.gradle\caches\transforms-3\abca199268512c8f766c0bf9da6a850b\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:29:13-84
+107            android:directBootAware="true"
+107-->[com.google.firebase:firebase-common:20.1.0] C:\Users\viole\.gradle\caches\transforms-3\0ad8d8a40d6712608a68f646d172a3b2\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:35:13-43
+108            android:exported="false" >
+108-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\viole\.gradle\caches\transforms-3\abca199268512c8f766c0bf9da6a850b\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:30:13-37
+109            <meta-data
+109-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\viole\.gradle\caches\transforms-3\abca199268512c8f766c0bf9da6a850b\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:31:13-33:85
+110                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+110-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\viole\.gradle\caches\transforms-3\abca199268512c8f766c0bf9da6a850b\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:32:17-139
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\viole\.gradle\caches\transforms-3\abca199268512c8f766c0bf9da6a850b\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:33:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\viole\.gradle\caches\transforms-3\e86efdbe9daa5d7351e73f207b28a0db\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+113                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+113-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\viole\.gradle\caches\transforms-3\e86efdbe9daa5d7351e73f207b28a0db\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\viole\.gradle\caches\transforms-3\e86efdbe9daa5d7351e73f207b28a0db\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+115        </service>
+116
+117        <provider
+117-->[com.google.firebase:firebase-common:20.1.0] C:\Users\viole\.gradle\caches\transforms-3\0ad8d8a40d6712608a68f646d172a3b2\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:26:9-31:39
+118            android:name="com.google.firebase.provider.FirebaseInitProvider"
+118-->[com.google.firebase:firebase-common:20.1.0] C:\Users\viole\.gradle\caches\transforms-3\0ad8d8a40d6712608a68f646d172a3b2\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:27:13-77
+119            android:authorities="com.skylink.mathup.firebaseinitprovider"
+119-->[com.google.firebase:firebase-common:20.1.0] C:\Users\viole\.gradle\caches\transforms-3\0ad8d8a40d6712608a68f646d172a3b2\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:28:13-72
+120            android:directBootAware="true"
+120-->[com.google.firebase:firebase-common:20.1.0] C:\Users\viole\.gradle\caches\transforms-3\0ad8d8a40d6712608a68f646d172a3b2\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:29:13-43
+121            android:exported="false"
+121-->[com.google.firebase:firebase-common:20.1.0] C:\Users\viole\.gradle\caches\transforms-3\0ad8d8a40d6712608a68f646d172a3b2\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:30:13-37
+122            android:initOrder="100" />
+122-->[com.google.firebase:firebase-common:20.1.0] C:\Users\viole\.gradle\caches\transforms-3\0ad8d8a40d6712608a68f646d172a3b2\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:31:13-36
+123
+124        <meta-data
+124-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\viole\.gradle\caches\transforms-3\a3826f87f02c7e8cbba48ae0552f2aca\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+125            android:name="com.google.android.gms.version"
+125-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\viole\.gradle\caches\transforms-3\a3826f87f02c7e8cbba48ae0552f2aca\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+126            android:value="@integer/google_play_services_version" />
+126-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\viole\.gradle\caches\transforms-3\a3826f87f02c7e8cbba48ae0552f2aca\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+127
+128        <provider
+128-->[androidx.emoji2:emoji2:1.0.0] C:\Users\viole\.gradle\caches\transforms-3\680cce82d75e0a8f7edf3ad31c8f1ac1\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+129            android:name="androidx.startup.InitializationProvider"
+129-->[androidx.emoji2:emoji2:1.0.0] C:\Users\viole\.gradle\caches\transforms-3\680cce82d75e0a8f7edf3ad31c8f1ac1\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+130            android:authorities="com.skylink.mathup.androidx-startup"
+130-->[androidx.emoji2:emoji2:1.0.0] C:\Users\viole\.gradle\caches\transforms-3\680cce82d75e0a8f7edf3ad31c8f1ac1\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+131            android:exported="false" >
+131-->[androidx.emoji2:emoji2:1.0.0] C:\Users\viole\.gradle\caches\transforms-3\680cce82d75e0a8f7edf3ad31c8f1ac1\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+132            <meta-data
+132-->[androidx.emoji2:emoji2:1.0.0] C:\Users\viole\.gradle\caches\transforms-3\680cce82d75e0a8f7edf3ad31c8f1ac1\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+133                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+133-->[androidx.emoji2:emoji2:1.0.0] C:\Users\viole\.gradle\caches\transforms-3\680cce82d75e0a8f7edf3ad31c8f1ac1\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+134                android:value="androidx.startup" />
+134-->[androidx.emoji2:emoji2:1.0.0] C:\Users\viole\.gradle\caches\transforms-3\680cce82d75e0a8f7edf3ad31c8f1ac1\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+135            <meta-data
+135-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\viole\.gradle\caches\transforms-3\0e36cab85e31ef0ebc286dd37c123770\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+136                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+136-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\viole\.gradle\caches\transforms-3\0e36cab85e31ef0ebc286dd37c123770\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+137                android:value="androidx.startup" />
+137-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\viole\.gradle\caches\transforms-3\0e36cab85e31ef0ebc286dd37c123770\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+138        </provider>
+139    </application>
+140
+141</manifest>

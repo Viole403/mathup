@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "345208296806",
+    "project_id": "mathup-ce503",
+    "storage_bucket": "mathup-ce503.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345208296806:android:979a77e06120fb0f3ca4a7",
+        "android_client_info": {
+          "package_name": "com.skylink.mathup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345208296806-1qrnmevn0l3tc431iq2287ce7e0ms9t7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzMIG_8hAptsn73uQeHvVZv9xIr0-YrPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345208296806-1qrnmevn0l3tc431iq2287ce7e0ms9t7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

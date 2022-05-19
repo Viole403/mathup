@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/card_title"
+            android:background="@drawable/curve_bg_white"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:orientation="vertical"
+            tools:targetApi="lollipop">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/passion_one_bold"
+                    android:text="@string/multiplication"
+                    android:textColor="@color/blue_text"
+                    android:textSize="30sp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/flash_math"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/passion_one_bold"
+                            android:text="@string/flash_math"
+                            android:textColor="@color/blue_text"
+                            android:textSize="20sp"/>
+
+                        <TextView
+                            android:id="@+id/flash_math_score"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginLeft="30dp"
+                            tools:text="100 / 100"
+                            android:fontFamily="casual"
+                            android:textColor="@color/black_text"
+                            android:textSize="18sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/t_or_f"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/passion_one_bold"
+                            android:text="@string/true_or_false"
+                            android:textColor="@color/blue_text"
+                            android:textSize="20sp"/>
+
+                        <TextView
+                            android:id="@+id/t_or_f_score"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginLeft="30dp"
+                            tools:text="100 / 100"
+                            android:fontFamily="casual"
+                            android:textColor="@color/black_text"
+                            android:textSize="18sp"/>
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/reset"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:alpha="0.95"
+                    android:background="@drawable/button_bg_red_up"
+                    android:elevation="18dp"
+                    android:fontFamily="@font/passion_one_bold"
+                    android:padding="12dp"
+                    android:text="@string/reset"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    tools:targetApi="lollipop" />
+        </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

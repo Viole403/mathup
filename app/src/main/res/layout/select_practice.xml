@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/select_practice"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_background">
+
+    <ImageButton
+        android:id="@+id/home3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/todo"
+        android:tint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047"
+        app:srcCompat="@drawable/ic_baseline_home_24" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/card_menu"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal"
+        android:background="#005C6BC0"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:targetApi="lollipop">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/card_box"
+            android:layout_weight="1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical"
+            android:background="#005C6BC0"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:targetApi="lollipop">
+
+
+
+            <Button
+                android:id="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:alpha="0.95"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/bg_flash_yellow"
+                android:elevation="10dp"
+                android:fontFamily="@font/passion_one_bold"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/x1"
+                android:textColor="@color/black_text"
+                android:textSize="24sp"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/t2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:alpha="0.95"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/bg_flash_yellow"
+                android:elevation="10dp"
+                android:fontFamily="@font/passion_one_bold"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/x2"
+                android:textColor="@color/black_text"
+                android:textSize="24sp"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/t3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:alpha="0.95"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/bg_flash_yellow"
+                android:elevation="10dp"
+                android:fontFamily="@font/passion_one_bold"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/x3"
+                android:textColor="@color/black_text"
+                android:textSize="24sp"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/t4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:alpha="0.95"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/bg_flash_yellow"
+                android:elevation="10dp"
+                android:fontFamily="@font/passion_one_bold"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/x4"
+                android:textColor="@color/black_text"
+                android:textSize="24sp"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/t5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:alpha="0.95"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/bg_flash_yellow"
+                android:elevation="10dp"
+                android:fontFamily="@font/passion_one_bold"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/x5"
+                android:textColor="@color/black_text"
+                android:textSize="24sp"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/t6"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:alpha="0.95"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/bg_flash_yellow"
+                android:elevation="10dp"
+                android:fontFamily="@font/passion_one_bold"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/x6"
+                android:textColor="@color/black_text"
+                android:textSize="24sp"
+                tools:targetApi="lollipop" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/card_box2"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical"
+            android:background="#005C6BC0"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:targetApi="lollipop">
+
+
+            <Button
+                android:id="@+id/t7"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:alpha="0.95"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/bg_flash_yellow"
+                android:elevation="10dp"
+                android:fontFamily="@font/passion_one_bold"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/x7"
+                android:textColor="@color/black_text"
+                android:textSize="24sp"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/t8"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:alpha="0.95"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/bg_flash_yellow"
+                android:elevation="10dp"
+                android:fontFamily="@font/passion_one_bold"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/x8"
+                android:textColor="@color/black_text"
+                android:textSize="24sp"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/t9"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:alpha="0.95"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/bg_flash_yellow"
+                android:elevation="10dp"
+                android:fontFamily="@font/passion_one_bold"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/x9"
+                android:textColor="@color/black_text"
+                android:textSize="24sp"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/t10"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:alpha="0.95"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/bg_flash_yellow"
+                android:elevation="10dp"
+                android:fontFamily="@font/passion_one_bold"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/x10"
+                android:textColor="@color/black_text"
+                android:textSize="24sp"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/t11"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:alpha="0.95"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/bg_flash_yellow"
+                android:elevation="10dp"
+                android:fontFamily="@font/passion_one_bold"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/x11"
+                android:textColor="@color/black_text"
+                android:textSize="24sp"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/t12"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:alpha="0.95"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/bg_flash_yellow"
+                android:elevation="10dp"
+                android:fontFamily="@font/passion_one_bold"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/x12"
+                android:textColor="@color/black_text"
+                android:textSize="24sp"
+                tools:targetApi="lollipop" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

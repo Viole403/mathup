@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_bg">
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toTopOf="@id/progress_loading"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:tint="@color/blue_text"
+        app:srcCompat="@drawable/ic_baseline_home_24"/>
+
+    <ImageButton
+        android:id="@+id/grades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toTopOf="@id/progress_loading"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:tint="@color/blue_text"
+        app:srcCompat="@drawable/ic_baseline_school_24"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/choice_a"
+        android:background="@drawable/curve_bg_orange"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:elevation="18dp"
+        android:padding="20dp"
+        app:layout_constraintBottom_toTopOf="@id/choice_b"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".80"
+        tools:targetApi="lollipop">
+
+        <TextView
+            android:id="@+id/text_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/passion_one_bold"
+            tools:text="12 x 1"
+            android:textColor="@color/black_text"
+            android:textSize="58sp"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/choice_b"
+        android:background="@drawable/curve_bg_pink"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:elevation="18dp"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:targetApi="lollipop">
+
+        <TextView
+            android:id="@+id/text_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/passion_one_bold"
+            tools:text="12 x 2"
+            android:textColor="@color/black_text"
+            android:textSize="58sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/choice_c"
+        android:background="@drawable/curve_bg_violet"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:elevation="18dp"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias=".20"
+        app:layout_constraintTop_toBottomOf="@id/choice_b"
+        tools:targetApi="lollipop">
+
+        <TextView
+            android:id="@+id/text_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/passion_one_bold"
+            tools:text="12 x 3"
+            android:textColor="@color/black_text"
+            android:textSize="58sp"/>
+    </RelativeLayout>
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress_loading"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        app:trackThickness="18dp"
+        app:trackCornerRadius="8dp"
+        app:trackColor="#EB3E3D3D"
+        app:indicatorColor="@color/green"
+        android:indeterminate="false"
+        android:progress="100"
+        android:max="100"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75"
+        app:layout_constraintBottom_toTopOf="@id/choice_a"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,450 @@
+[
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_baseline_check_box_outline_blank_24.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_baseline_check_box_outline_blank_24.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/layout_dialog_reset_confirm.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/layout/dialog_reset_confirm.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/layout_fragment_flash_math.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/layout/fragment_flash_math.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_bg_flash_yellow.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/bg_flash_yellow.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_red_background.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/red_background.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_curve_bg_red.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/curve_bg_red.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_double_arrow_right.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_double_arrow_right.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_baseline_style_24.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_baseline_style_24.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/raw_button.mp3.flat",
+        "source": "com.skylink.mathup.app-main-30:/raw/button.mp3"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/raw_bg_music1.mp3.flat",
+        "source": "com.skylink.mathup.app-main-30:/raw/bg_music1.mp3"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/layout_activity_flash_main.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/layout/activity_flash_main.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_double_arrow_left.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_double_arrow_left.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_sky_background_2_1.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/sky_background_2_1.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_background_anim_violet_blue.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/background_anim_violet_blue.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_circle_button_red.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/circle_button_red.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_curve_bg_pink.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/curve_bg_pink.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_blue_background.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/blue_background.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_check.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_check.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/layout_select_practice.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/layout/select_practice.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/raw_win.mp3.flat",
+        "source": "com.skylink.mathup.app-main-30:/raw/win.mp3"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_curve_bg_blue.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/curve_bg_blue.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.skylink.mathup.app-main-30:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_graduation_cap.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_graduation_cap.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_trophy_40_dp.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_trophy_40_dp.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/anim_slide_to_right.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/anim/slide_to_right.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/raw_timer.mp3.flat",
+        "source": "com.skylink.mathup.app-main-30:/raw/timer.mp3"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/raw_bg_music2.mp3.flat",
+        "source": "com.skylink.mathup.app-main-30:/raw/bg_music2.mp3"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_wrong.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_wrong.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_baseline_dynamic_feed_24.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_baseline_dynamic_feed_24.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_sky_background_2.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/sky_background_2.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/layout_splash_activity.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/layout/splash_activity.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_green_background.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/green_background.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/layout_dialog_level_up.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/layout/dialog_level_up.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.skylink.mathup.app-main-30:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_curve_bg_l_green.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/curve_bg_l_green.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/font_passion_one_regular.ttf.flat",
+        "source": "com.skylink.mathup.app-main-30:/font/passion_one_regular.ttf"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_baseline_settings_24.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_baseline_settings_24.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_baseline_double_arrow_24.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_baseline_double_arrow_24.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_trophy.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_trophy.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_background_anim_green.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/background_anim_green.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/layout_activity_grades.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/layout/activity_grades.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_curve_td_bg_white.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/curve_td_bg_white.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/layout_fragment_flash_cards.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/layout/fragment_flash_cards.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_blue_violet_background.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/blue_violet_background.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_baseline_toys_24.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_baseline_toys_24.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_baseline_more_horiz_24.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_baseline_more_horiz_24.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_curve_bg_border_black_white.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/curve_bg_border_black_white.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_baseline_music_off_24.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_baseline_music_off_24.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_curve_bg_white.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/curve_bg_white.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_curve_bg_orange.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/curve_bg_orange.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.skylink.mathup.app-main-30:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/layout_dialog_int_ad_intro.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/layout/dialog_int_ad_intro.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_baseline_navigate_next_24.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_baseline_navigate_next_24.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_violet_background.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/violet_background.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/anim_rotate.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/anim/rotate.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_background_anim_yellow.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/background_anim_yellow.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_background_anim_red_wrong.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/background_anim_red_wrong.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_baseline_grade_24.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_baseline_grade_24.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_curve_bg_l_blue.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/curve_bg_l_blue.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/raw_bg_sound.mp3.flat",
+        "source": "com.skylink.mathup.app-main-30:/raw/bg_sound.mp3"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_curve_bg_green.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/curve_bg_green.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_baseline_home_24.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_baseline_home_24.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/layout_activity_flash_mutiply_quiz.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/layout/activity_flash_mutiply_quiz.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_curve_bg_border_yellow_white.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/curve_bg_border_yellow_white.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/layout_fragment_true_or_false.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/layout/fragment_true_or_false.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_baseline_music_note_24.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_baseline_music_note_24.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_yellow_background.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/yellow_background.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_baseline_lock_24.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_baseline_lock_24.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_baseline_school_24.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_baseline_school_24.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_baseline_timer_on.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_baseline_timer_on.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_baseline_looks_3_24.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_baseline_looks_3_24.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_baseline_looks_4_24.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_baseline_looks_4_24.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_button_bg_blue_middle.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/button_bg_blue_middle.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/layout_fragment_grade.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/layout/fragment_grade.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/font_quicksand_regular.ttf.flat",
+        "source": "com.skylink.mathup.app-main-30:/font/quicksand_regular.ttf"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/font_passion_one_bold.ttf.flat",
+        "source": "com.skylink.mathup.app-main-30:/font/passion_one_bold.ttf"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_baseline_info_24.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_baseline_info_24.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_baseline_add_24.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_baseline_add_24.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_bg_flash_green.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/bg_flash_green.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.skylink.mathup.app-main-30:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_button_bg_red_up.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/button_bg_red_up.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/color_bottom_nav_icon_color_selector.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/color/bottom_nav_icon_color_selector.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_baseline_looks_one_24.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_baseline_looks_one_24.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_bg_flash_blue.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/bg_flash_blue.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/anim_slide_to_left.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/anim/slide_to_left.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_curve_bg_yellow.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/curve_bg_yellow.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/layout_fragment_practice_multiplication.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/layout/fragment_practice_multiplication.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/layout_play_activity.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/layout/play_activity.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/raw_bg_music3.mp3.flat",
+        "source": "com.skylink.mathup.app-main-30:/raw/bg_music3.mp3"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/layout_activity_true_or_false.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/layout/activity_true_or_false.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_baseline_timer_off.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_baseline_timer_off.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/layout_info.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/layout/info.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.skylink.mathup.app-main-30:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/anim_blink_once.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/anim/blink_once.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_baseline_play_arrow_24.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_baseline_play_arrow_24.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_baseline_details_24.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_baseline_details_24.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_baseline_looks_two_24.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_baseline_looks_two_24.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_curve_bg_l_yellow.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/curve_bg_l_yellow.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/layout_activity_main.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/layout_dialog_timer.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/layout/dialog_timer.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_darker_green_background.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/darker_green_background.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_background_anim_blue_violet.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/background_anim_blue_violet.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_bg_flash_red.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/bg_flash_red.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/layout_activity_menu.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/layout/activity_menu.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_ic_baseline_star_24.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/ic_baseline_star_24.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_icon_512.png.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/icon_512.png"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/anim_bounce.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/anim/bounce.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/layout_activity_more.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/layout/activity_more.xml"
+    },
+    {
+        "merged": "com.skylink.mathup.app-merged_res-28:/drawable_curve_bg_violet.xml.flat",
+        "source": "com.skylink.mathup.app-main-30:/drawable/curve_bg_violet.xml"
+    }
+]

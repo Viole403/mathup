@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">345208296806-1qrnmevn0l3tc431iq2287ce7e0ms9t7.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">345208296806</string>
+    <string name="google_api_key" translatable="false">AIzaSyDzMIG_8hAptsn73uQeHvVZv9xIr0-YrPk</string>
+    <string name="google_app_id" translatable="false">1:345208296806:android:979a77e06120fb0f3ca4a7</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDzMIG_8hAptsn73uQeHvVZv9xIr0-YrPk</string>
+    <string name="google_storage_bucket" translatable="false">mathup-ce503.appspot.com</string>
+    <string name="project_id" translatable="false">mathup-ce503</string>
+</resources>

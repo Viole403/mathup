@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/card_title"
+            android:background="@drawable/curve_bg_blue"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:orientation="vertical"
+            tools:targetApi="lollipop">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/passion_one_bold"
+                    android:text="@string/multiplication"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"/>
+
+                <TextView
+                    android:id="@+id/titleSub"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="casual"
+                    android:text="@string/flash_cards"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    app:srcCompat="@drawable/ic_baseline_style_24"
+                    android:contentDescription="@string/todo"/>
+
+                <Button
+                    android:id="@+id/flash"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:alpha="0.95"
+                    android:background="@drawable/button_bg_red_up"
+                    android:elevation="18dp"
+                    android:fontFamily="@font/passion_one_bold"
+                    android:padding="12dp"
+                    android:text="@string/start"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    tools:targetApi="lollipop" />
+        </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

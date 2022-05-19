@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/constraint_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/yellow_background">
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="40dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/todo"
+        android:tint="@color/blue_text"
+        app:srcCompat="@drawable/ic_baseline_home_24"
+        android:layout_marginLeft="40dp" />
+
+    <ImageButton
+        android:id="@+id/grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/todo"
+        android:tint="@color/blue_text"
+        app:srcCompat="@drawable/ic_baseline_school_24"
+        android:layout_marginRight="40dp" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/card_view_pager"
+        android:orientation="horizontal"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
